@@ -1,0 +1,7 @@
+{
+  "watch": "./src",
+  "ext": "ts",
+  "ignore": "node_modules",
+  "exec": "node --require ts-node/register --require tsconfig-paths/register src/server.ts",
+  "delay": "2000"
+}
